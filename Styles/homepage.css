@@ -6,7 +6,6 @@
   margin-bottom: 10px;
   padding-bottom: 4px;
   padding-top: 4px;
-
   color: #303030;
   border-bottom: 1px solid #d4d4d4;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
@@ -24,7 +23,7 @@
 }
 .logo {
   display: flex;
-  margin-left: 70px;
+  margin-left: 80px;
 }
 .header-menus {
   display: flex;
@@ -39,16 +38,19 @@
   white-space: nowrap;
 }
 .mydaylogo {
-  height: 30px;
+  height: 2rem;
 }
 
 .calenderlogo {
-  height: 20px;
+  height: 2rem;
+}
+.projectslogo {
+  height: 2.5rem;
 }
 .empty {
   flex: 1;
   min-width: 1rem;
-  max-width: 8rem;
+  max-width: 10rem;
 }
 .searchbar {
   display: flex;
@@ -79,22 +81,24 @@
   top: -0.1rem;
 }
 
-.account {
-  margin-right: 1rem;
-  margin-left: 1rem;
-  position: relative;
-}
 .username {
   display: flex;
   white-space: nowrap;
   font-size: var(--header-font-size);
   font-weight: var(--font-weight-header-strong);
   margin-right: 70px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.account-image {
+  margin-right: 1rem;
+  margin-left: 1rem;
 }
 .notificationsbox {
   position: absolute;
-  left: 2rem;
-  top: 1.2rem;
+  left: 9rem;
+  top: 22px;
   height: 12px;
   width: 12px;
   background-color: #d4414a;
