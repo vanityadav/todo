@@ -1,6 +1,6 @@
-@font-face {
+/* @font-face {
   font-family: "Visby Round CF";
-  src: url(".fonts/VisbyRoundCF-Bold.woff2") format("woff2");
+  src: url("../../fonts/VisbyRoundCF-Bold.woff2") format("woff2");
   font-style: normal;
   font-weight: bold;
 }
@@ -40,13 +40,13 @@
   src: url(".fonts/VisbyRoundCF-Medium.woff2") format("woff2");
   font-style: normal;
   font-weight: bold;
-}
+} */
 
 @font-face {
   font-family: "Visby Round CF";
-  src: url(".fonts/VisbyRoundCF-Regular.woff2") format("woff2");
+  src: url("../../fonts/VisbyRoundCF-Regular.woff2") format("woff2");
   font-style: normal;
-  font-weight: bold;
+  font-weight: normal;
 }
 :root {
   --bordercolor: #707070;
