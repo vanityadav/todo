@@ -44,7 +44,7 @@
 
 @font-face {
   font-family: "Visby Round CF";
-  src: url(".fonts/VisbyRoundCF-Regular.woff2") format("woff2");
+  src: url("../../fonts/VisbyRoundCF-Regular.woff2") format("woff2");
   font-style: normal;
   font-weight: bold;
 }
