@@ -1,9 +1,4 @@
-:root {
-  --font: Visby Round CF;
-}
-
 body {
   margin: 0;
   padding: 0;
-  font-family: var(--font);
 }
