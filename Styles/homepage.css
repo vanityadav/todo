@@ -1,62 +1,3 @@
-@font-face {
-  font-family: "Visby Round CF";
-  src: url("../../fonts/VisbyRoundCF-Bold.woff2") format("woff2");
-  font-style: normal;
-  font-weight: 700;
-}
-@font-face {
-  font-family: "Visby Round CF";
-  src: url("../../fonts/VisbyRoundCF-ExtraLight.woff2") format("woff2");
-  font-style: normal;
-  font-weight: 200;
-}
-@font-face {
-  font-family: "Visby Round CF";
-  src: url("../../fonts/VisbyRoundCF-Heavy.woff2") format("woff2");
-  font-style: normal;
-  font-weight: 900;
-}
-@font-face {
-  font-family: "Visby Round CF";
-  src: url("../../fonts/VisbyRoundCF-DemiBold.woff2") format("woff2");
-  font-style: normal;
-  font-weight: 600;
-}
-@font-face {
-  font-family: "Visby Round CF";
-  src: url("../../fonts/VisbyRoundCF-ExtraBold.woff2") format("woff2");
-  font-style: normal;
-  font-weight: 800;
-}
-@font-face {
-  font-family: "Visby Round CF";
-  src: url("../../fonts/VisbyRoundCF-Light.woff2") format("woff2");
-  font-style: normal;
-  font-weight: 300;
-}
-
-@font-face {
-  font-family: "Visby Round CF";
-  src: url("../../fonts/VisbyRoundCF-Medium.woff2") format("woff2");
-  font-style: normal;
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: "Visby Round CF";
-  src: url("../../fonts/VisbyRoundCF-Regular.woff2") format("woff2");
-  font-style: normal;
-  font-weight: 400;
-}
-:root {
-  --bordercolor: #707070;
-  --font: Visby Round CF;
-  --header-font-size: 1.5rem;
-  --font-weight-header-strong: 500;
-  --font-weight-searchbar: 500;
-  --pointer-position: 12%;
-}
-
 .main-header {
   display: flex;
   align-items: center;
@@ -65,14 +6,13 @@
   margin-bottom: 10px;
   padding-bottom: 4px;
   padding-top: 4px;
+
   color: #303030;
   border-bottom: 1px solid #d4d4d4;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  font-family: var(--font);
 }
 .btn-header {
   border: none;
-  font-family: var(--font);
   font-size: var(--header-font-size);
   font-weight: var(--font-weight-header-strong);
   background: none;
@@ -86,24 +26,29 @@
   display: flex;
   margin-left: 70px;
 }
+.header-menus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .logosvg {
   height: 2.8rem;
   cursor: pointer;
 }
-
-.mydaylogo {
-  height: 30px;
-  /* filter: ; */
-}
 .myday {
   white-space: nowrap;
 }
+.mydaylogo {
+  height: 30px;
+}
+
 .calenderlogo {
   height: 20px;
 }
 .empty {
   flex: 1;
-  max-width: 200px;
+  min-width: 1rem;
+  max-width: 8rem;
 }
 .searchbar {
   display: flex;
@@ -121,7 +66,7 @@
   border-radius: 1.5rem;
   border-style: solid;
   border-color: var(--bordercolor);
-  font-family: var(--font);
+
   font-size: 1rem;
   font-weight: var(--font-weight-searchbar);
   box-shadow: inset 2px 2px 10px rgb(228, 228, 228);
@@ -142,7 +87,6 @@
 .username {
   display: flex;
   white-space: nowrap;
-  font-family: var(--font);
   font-size: var(--header-font-size);
   font-weight: var(--font-weight-header-strong);
   margin-right: 70px;
@@ -267,7 +211,6 @@
 }
 .language {
   content: "↓";
-  font-family: var(--font);
   background-color: #e3e3e3;
   font-size: 1rem;
   border: none;

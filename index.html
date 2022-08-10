@@ -12,7 +12,7 @@
   </head>
   <body>
     <header id="header" class="main-header">
-      <div class="logo">
+      <div class="header-menus logo">
         <img
           class="logosvg"
           src="Images/todologo.svg"
@@ -20,28 +20,20 @@
           onclick="location.href='index.html'"
           type="button"
         />
-        <button
-          class="texttodo btn-header"
-          onclick="location.href='index.html'"
-          type="button"
-        >
-          ToDo
-        </button>
+        <button class="btn-header">ToDo</button>
       </div>
-      <button
-        class="myday btn-header"
-        onclick="location.href='myday.html'"
-        type="button"
-      >
+      <div class="header-menus myday">
         <img class="mydaylogo" src="Images/myday.svg" />
-        My Day
-      </button>
-      <button class="calender btn-header">
-        <img class="calenderlogo" src="Images/calander.svg" />Calender
-      </button>
-      <button class="projects btn-header">
-        <img class="projectslogo" src="Images/projects.svg" />Projects
-      </button>
+        <button class="btn-header">My Day</button>
+      </div>
+      <div class="header-menus calender">
+        <img class="calenderlogo" src="Images/calander.svg" />
+        <button class="btn-header">Calender</button>
+      </div>
+      <div class="header-menus projects">
+        <img class="projectslogo" src="Images/projects.svg" />
+        <button class="btn-header">Projects</button>
+      </div>
       <div class="empty"></div>
       <div class="searchbar">
         <input
