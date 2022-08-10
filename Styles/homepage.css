@@ -68,7 +68,6 @@
   border-radius: 1.5rem;
   border-style: solid;
   border-color: var(--bordercolor);
-
   font-size: 1rem;
   font-weight: var(--font-weight-searchbar);
   box-shadow: inset 2px 2px 10px rgb(228, 228, 228);
@@ -116,7 +115,7 @@
   margin-bottom: -1rem;
 }
 .mainbox {
-  height: 46rem;
+  min-height: calc(100vh - 276px);
   width: 84%;
   border-radius: 2rem;
   margin-left: auto;
@@ -188,6 +187,8 @@
 }
 .footer-window {
   display: flex;
+  position: fixed;
+  width: 100%;
   font-size: 1rem;
   margin-top: 8px;
   justify-content: space-between;
@@ -214,7 +215,6 @@
   cursor: pointer;
 }
 .language {
-  content: "↓";
   background-color: #e3e3e3;
   font-size: 1rem;
   border: none;
