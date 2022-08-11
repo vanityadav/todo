@@ -16,13 +16,15 @@
   font-weight: var(--font-weight-header-strong);
   background: none;
   cursor: pointer;
+  -webkit-transition: font-weight 300ms ease-in-out;
 }
 .btn-header:hover {
   color: #d4414a;
   font-weight: 700;
 }
 div.header-menus > img:hover {
-  transform: rotate3d(sin(30), 0, 0, 60deg);
+  transform: scale(110%);
+  transition: transform 300ms ease-in-out;
 }
 
 .logo {
