@@ -1,2 +1,2 @@
 # My ToDo
- ToDo Web App
+Landing Page
