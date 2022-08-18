@@ -1,6 +1,6 @@
 @media (max-width: 1700px) {
-  .main-header {
-    padding: 0 20px 0 20px;
+  .btn-header {
+    display: none;
   }
 }
 .main-header {
