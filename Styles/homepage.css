@@ -1,8 +1,3 @@
-@media (max-width: 1700px) {
-  .btn-header {
-    display: none;
-  }
-}
 .main-header {
   display: flex;
   align-items: center;
@@ -35,7 +30,7 @@ div.header-menus > img:hover {
 
 .logo {
   display: flex;
-  margin-left: 80px;
+  margin-left: 90px;
 }
 .header-menus {
   display: flex;
@@ -116,7 +111,110 @@ div.header-menus > img:hover {
   border-radius: 7px;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
 }
+.empty-div-login {
+  margin-left: 87rem;
+  height: 77px;
+}
+.signup-button {
+  position: fixed;
+  right: 300px;
+}
+.signin-button {
+  position: fixed;
+  right: 120px;
+}
+.signin-button,
+.signup-button {
+  background-color: #e3e3e3;
+  border-radius: 2rem;
+  padding: 8px 1rem 8px 1rem;
+  margin-right: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
 
+.signin-modal,
+.signup-modal {
+  border: none;
+  border-radius: 1rem;
+  padding: 0;
+  width: 40vh;
+  box-shadow: 0 0 20px #303030;
+}
+.form-signin,
+.form-signup {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.text-signin,
+.text-signup {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1rem;
+  width: 92%;
+  pointer-events: none;
+  border-bottom: 1px solid rgba(124, 124, 124, 0.33);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+.user-box input {
+  font-size: 1.2rem;
+  padding: 8px 0;
+  border: none;
+  border-bottom: 2px solid #d4414a;
+  outline: none;
+  background: transparent;
+}
+.user-box {
+  font-size: 1.2rem;
+  position: relative;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  padding: 1rem 0 1rem 0;
+}
+.user-box label {
+  position: absolute;
+  left: 0;
+  bottom: 8px;
+  pointer-events: none;
+  transition: 0.5s;
+  padding: 1rem 0 1rem 0;
+}
+.signin-modal::backdrop,
+.signup-modal::backdrop {
+  background-color: #0000006b;
+}
+
+.user-box input:focus ~ label,
+.user-box input:valid ~ label {
+  top: -20px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #3c3c3c;
+}
+.signin-submit-button,
+.signup-submit-button {
+  background-color: #e3e3e3;
+  margin-bottom: 3rem;
+  padding: 1rem;
+  border-radius: 4rem;
+  transform: translateX(50%);
+}
+.exit {
+  position: absolute;
+  width: 71px;
+  height: 71px;
+  border: none;
+  background-color: transparent;
+  font-weight: 900;
+  top: 0;
+  left: 0;
+  font-size: 2rem;
+  border-radius: 50px;
+}
+.exit:hover {
+  background-color: #a1a1a163;
+}
 .pointer-shape {
   width: 0;
   height: 0;

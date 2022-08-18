@@ -55,7 +55,9 @@ button {
   padding: 0;
   font-family: "Visby Round CF";
 }
-
+dialog {
+  font-family: "Visby Round CF";
+}
 :root {
   --bordercolor: #707070;
   --header-font-size: 1.5rem;
