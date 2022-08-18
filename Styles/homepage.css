@@ -21,6 +21,7 @@
   font-weight: var(--font-weight-header-strong);
   background: none;
   cursor: pointer;
+  padding: 10px;
   -webkit-transition: font-weight 300ms ease-in-out;
 }
 .btn-header:hover {
