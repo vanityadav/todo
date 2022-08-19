@@ -64,10 +64,10 @@ function homepageHeader() {
         <p id="username">hi, Adam!</p>
         <img class="account-image" src="Images/accountimage.svg" />
         <div class="notificationsbox"></div>
-      </div>`
+      </div>
+      <script src="Js/myday.js"></script>
+      `
   let pointerShape = document.querySelector('.pointer-shape')
   pointerShape.style.left ="220px"
 }
-
-
 

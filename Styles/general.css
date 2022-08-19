@@ -48,7 +48,9 @@
   font-style: normal;
   font-weight: 400;
 }
-
+body {
+  transition: 0.5s;
+}
 body,
 button {
   margin: 0;

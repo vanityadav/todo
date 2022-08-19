@@ -1,0 +1,65 @@
+.footer-window-myday {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 4px;
+  border-top: 1px solid #d4d4d4;
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+}
+.links {
+  margin-right: 10px;
+}
+.links:hover {
+  cursor: pointer;
+  font-weight: 600;
+  color: #d4414a;
+}
+.socials-myday {
+  display: flex;
+  margin-left: 600px;
+}
+
+div.socials-myday img {
+  margin: 10px;
+  margin-bottom: 4px;
+}
+.language-button-myday {
+  width: 260px;
+  margin: 0 20px 4px 20px;
+}
+.support-button {
+  display: flex;
+}
+.text-button {
+  margin-top: 4px;
+}
+.text-button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.uparrow {
+  margin-left: 10px;
+  margin-top: 2px;
+  border-radius: 10px;
+  height: 20px;
+  width: 20px;
+  padding: 4px;
+}
+.uparrow:hover {
+  border-radius: 16px;
+  background-color: #b4b4b470;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
+}
+.mainbox-myday {
+  min-height: calc(100vh - 170px);
+  width: 84%;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  background: linear-gradient(#d4414a, #d47547);
+}

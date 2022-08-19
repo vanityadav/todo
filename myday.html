@@ -7,6 +7,7 @@
     <title>My Todo</title>
     <link href="Styles/general.css" rel="stylesheet" />
     <link href="Styles/homepage.css" rel="stylesheet" />
+    <link href="Styles/myday.css" rel="stylesheet" />
 
     <script src="Js/home.js" async></script>
   </head>
@@ -45,30 +46,30 @@
     </header>
     <main class="main-content">
       <div class="pointer-shape"></div>
-      <div id="mainbody" class="mainbox">
+      <div id="mainbody" class="mainbox-myday">
         <div id="changebody" class="change-body"></div>
       </div>
     </main>
-    <footer class="footer-window">
-      <div class="footer-left">
-        <p>
-          Join millions of people who organize work and<br />
-          life at ToDo
-        </p>
-        <div class="socials">
-          <button class="social-buttons">
-            <img src="Images/instagram.svg" />
-          </button>
-          <button class="social-buttons">
-            <img src="Images/facebook.svg" />
-          </button>
-          <button class="social-buttons">
-            <img src="Images/twitter.svg" />
-          </button>
-          <button class="social-buttons">
-            <img src="Images/youtube.svg" />
-          </button>
+    <footer class="footer-window-myday">
+      <div class="links">2022 ToDo Inc.</div>
+      <div class="links">Security</div>
+      <div class="links">Privacy</div>
+      <div class="links">Terms</div>
+      <div class="socials-myday">
+        <div class="social-buttons">
+          <img src="Images/instagram.svg" />
         </div>
+        <div class="social-buttons">
+          <img src="Images/facebook.svg" />
+        </div>
+        <div class="social-buttons">
+          <img src="Images/twitter.svg" />
+        </div>
+        <div class="social-buttons">
+          <img src="Images/youtube.svg" />
+        </div>
+      </div>
+      <div class="language-button-myday">
         <select name="languages" class="language">
           <option value="Default">English</option>
           <option value="Hindi">Hindi</option>
@@ -78,26 +79,9 @@
           <option value="Spanish">Spainish</option>
         </select>
       </div>
-      <div class="empty-footer"></div>
-      <div class="footer-right">
-        <div class="company">
-          <p class="footer-heading">Company</p>
-          <p class="pointer">About Us</p>
-          <p class="pointer">Contact Us</p>
-          <p class="pointer">We are hiring!</p>
-        </div>
-        <div class="features">
-          <p class="footer-heading">Features</p>
-          <p class="pointer">How It Works</p>
-          <p class="pointer">Pricing</p>
-          <p class="pointer">For Teams</p>
-        </div>
-        <div class="resources">
-          <p class="footer-heading">Resources</p>
-          <p class="pointer">Privacy</p>
-          <p class="pointer">Support Center</p>
-          <p class="pointer">Terms of Service</p>
-        </div>
+      <div class="support-button">
+        <div class="text-button">Support &amp; Resources</div>
+        <img class="uparrow" src="Images/uparrow.svg" />
       </div>
     </footer>
   </body>
