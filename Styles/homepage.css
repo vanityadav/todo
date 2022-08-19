@@ -121,15 +121,15 @@ div.header-menus > img:hover {
 }
 .signin-button {
   position: fixed;
-  right: 120px;
+  right: 130px;
 }
 .signin-button,
 .signup-button {
   background-color: #e3e3e3;
   border-radius: 2rem;
-  padding: 8px 1rem 8px 1rem;
+  padding: 2px 1rem 4px 1rem;
   margin-right: 40px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .signin-modal,
