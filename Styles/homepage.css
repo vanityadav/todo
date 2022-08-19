@@ -277,7 +277,13 @@ div.header-menus > img:hover {
   background-color: transparent;
   cursor: pointer;
   margin: 1rem;
+  transition: 0.3s;
 }
+
+.download-app-button:hover {
+  transform: scale(120%);
+}
+
 .mainbox-right {
   display: flex;
 }
@@ -330,7 +336,12 @@ div.header-menus > img:hover {
   border: none;
   background-color: transparent;
   cursor: pointer;
+  transition: 0.3s;
 }
+.social-buttons:hover {
+  transform: scale(120%);
+}
+
 .language {
   background-color: #e3e3e3;
   font-size: 1rem;
@@ -362,4 +373,8 @@ div.header-menus > img:hover {
 .pointer {
   cursor: pointer;
   white-space: nowrap;
+}
+.pointer:hover {
+  color: #d4414a;
+  font-weight: 700;
 }
