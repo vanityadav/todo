@@ -45,7 +45,7 @@ function homepageHeader() {
       </div>
       <div class="header-menus calender">
         <img class="calenderlogo" src="Images/calander.svg" />
-        <button class="btn-header">Calender</button>
+        <button class="btn-header">Calendar</button>
       </div>
       <div class="header-menus projects">
         <img class="projectslogo" src="Images/projects.svg" />
