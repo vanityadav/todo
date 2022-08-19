@@ -24,6 +24,9 @@
   font-weight: 700;
 }
 div.header-menus > img:hover {
+  cursor: pointer;
+  filter: invert(28%) sepia(44%) saturate(6218%) hue-rotate(342deg)
+    brightness(96%) contrast(72%);
   transform: scale(110%);
   transition: transform 300ms ease-in-out;
 }
@@ -40,6 +43,9 @@ div.header-menus > img:hover {
 .logosvg {
   height: 2.8rem;
   cursor: pointer;
+}
+.logosvg:hover {
+  filter: none !important;
 }
 .myday {
   white-space: nowrap;
@@ -214,6 +220,7 @@ div.header-menus > img:hover {
 }
 .exit:hover {
   background-color: #a1a1a163;
+  color: #d4414a;
 }
 .pointer-shape {
   width: 0;

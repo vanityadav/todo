@@ -28,8 +28,6 @@ function homepageHeader() {
           class="logosvg"
           src="Images/todologo.svg"
           alt="logo"
-          onclick="location.href='index.html'"
-          type="button"
         />
         <button class="btn-header">ToDo</button>
       </div>
