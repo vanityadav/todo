@@ -1,3 +1,12 @@
+document.querySelector('header').addEventListener("click", movePointer)
+function movePointer(event) {
+  let pointerShape = document.querySelector('.pointer-shape')
+  let x = event.pageX
+  let m =window.innerWidth
+  if (x > (m * 0.08) && x < (m * 0.91))
+  pointerShape.style.left = x + "px"
+}
+
 
 const signin = document.querySelector('.signin-button')
 const signup = document.querySelector('.signup-button')
@@ -22,7 +31,6 @@ function closeModal(event) {
 }
 
 function homepageHeader() {
-  
   document.getElementById('header').innerHTML=` <div class="header-menus logo">
         <img
           class="logosvg"
@@ -57,7 +65,8 @@ function homepageHeader() {
         <img class="account-image" src="Images/accountimage.svg" />
         <div class="notificationsbox"></div>
       </div>`
- 
+  let pointerShape = document.querySelector('.pointer-shape')
+  pointerShape.style.left ="220px"
 }
 
 

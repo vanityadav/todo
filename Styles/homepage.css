@@ -23,6 +23,12 @@
   color: #d4414a;
   font-weight: 700;
 }
+
+.btn-header:focus {
+  color: #d4414a;
+  font-weight: 700;
+}
+
 div.header-menus > img:hover {
   cursor: pointer;
   filter: invert(28%) sepia(44%) saturate(6218%) hue-rotate(342deg)
@@ -223,18 +229,21 @@ div.header-menus > img:hover {
   color: #d4414a;
 }
 .pointer-shape {
+  position: absolute;
   width: 0;
   height: 0;
   border-left: 8px solid transparent;
   border-right: 8px solid transparent;
   border-bottom: 14px solid #d4414a;
-  margin-left: var(--pointer-position);
-  margin-bottom: -1rem;
+  left: 220px;
+  top: 90px;
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
 }
 .mainbox {
   min-height: calc(100vh - 276px);
   width: 84%;
-  border-radius: 2rem;
+  border-radius: 10px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 1rem;
